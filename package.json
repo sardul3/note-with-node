@@ -1,0 +1,22 @@
+{
+  "name": "note_with_node",
+  "version": "1.0.0",
+  "description": "A command prompt note taking app",
+  "main": "app.js",
+
+  "repository" :
+  { "type" : "git"
+  , "url" : "git@github.com:sardul3/note-with-node.git"
+  }
+
+  "scripts": {
+    "start": "note",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sagar Poudel",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "yargs": "^6.5.0"
+  }
+}
